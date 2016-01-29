@@ -1,0 +1,9 @@
+D:\Copy\VisualStudioWorkspace\VivaldiThemeCreator\VivaldiThemeCreator\bin\Debug\VivaldiThemeCreator.exe.config
+D:\Copy\VisualStudioWorkspace\VivaldiThemeCreator\VivaldiThemeCreator\bin\Debug\VivaldiThemeCreator.exe
+D:\Copy\VisualStudioWorkspace\VivaldiThemeCreator\VivaldiThemeCreator\bin\Debug\VivaldiThemeCreator.pdb
+D:\Copy\VisualStudioWorkspace\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.csprojResolveAssemblyReference.cache
+D:\Copy\VisualStudioWorkspace\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.Form1.resources
+D:\Copy\VisualStudioWorkspace\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.Properties.Resources.resources
+D:\Copy\VisualStudioWorkspace\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.csproj.GenerateResource.Cache
+D:\Copy\VisualStudioWorkspace\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.exe
+D:\Copy\VisualStudioWorkspace\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.pdb

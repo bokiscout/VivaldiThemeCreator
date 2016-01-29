@@ -1,0 +1,195 @@
+/*
+////////////////////////////////
+///                          ///
+///         fonts            ///
+///                          ///
+////////////////////////////////
+*/
+
+/* try to render with fonts Noto Sans, then use defaults */
+#browser.linux{
+  font-family: Noto Sans,Ubuntu,sans-serif;
+}
+
+/*
+////////////////////////////////
+///                          ///
+///          tabs            ///
+///                          ///
+////////////////////////////////
+*/
+
+/* top panel, tabs are placed on top of this */
+#browser.native.linux.normal #tabs-container.top{
+  background-color: #2f343f;
+}
+
+/* active tab */
+.tab.active{
+  background-color: #383c4a !important;
+  /*border-left: solid 2px #528bff;*/
+  border-left: solid 2px #2b2e39;
+  border-right: solid 2px #2b2e39;
+  border-top: solid 2px #2b2e39;
+  /* add height to cover the botom border of panel behind it,
+  move it up to fix misplacement of text and icon*/
+  height: 32px;
+  position: relative;
+  top: -2px;
+}
+
+/* inactive tab */
+.ui-dark .tab-position .tab{
+  background-color: #2f343f;
+}
+
+/* inactive tab while hover */
+.tab:hover{
+    background-color: #383c4a !important;
+    border-left: solid 2px #2b2e39;
+    border-right: solid 2px #2b2e39;
+    border-top: solid 2px #2b2e39;
+    height: 32px;
+    position: relative;
+    top: -2px;
+    left: -1px;
+    padding-left: -2px;
+}
+
+
+/*
+////////////////////////////////
+///                          ///
+///          toolbar         ///
+///                          ///
+////////////////////////////////
+*/
+
+/* toolbar is the bar where forword, backword buttons, adressbar and searchfield are placed */
+
+/* background color */
+.toolbar.toolbar-addressbar{
+    background-color: #383c4a !important;
+    border-bottom: solid 1px #2b2e39;
+}
+
+/* botom border to mimic 3D of active tabs */
+/* tis border is above adressbar panel and bellow tabs, morelike between */
+.resize{
+  border-bottom: solid 2px #2b2e39;
+}
+
+/* border around adressbar and searchfield */
+.addressfield, .searchfield{
+  outline-color: #2b2e39 !important;
+  /*outl*/
+}
+
+/* border around adressbar and searchfield when focused */
+.addressfield.focused, .searchfield.focused{
+  outline-color: #528bff !important;
+  /*outline-width: 2px !important;*/
+}
+
+/* background color of the adressbar */
+.addressfield, .addressfield form input.url, .searchfield .searchfield-input, .button-addressfield input-dropdown{
+  background-color: #404552 !important;
+}
+
+/* if there are marings betweb the left icon "questionmark" and searchfiled text
+it looks like there is some separator with other color.
+Let's remove that separator and add padding on the left side of the searchfield text
+to bring back the distance as it was before the handling of the separator
+*/
+.searchfield .search-engines{
+  margin: 0px !important;
+}
+
+/* add left padding to fix separator from above */
+searchfield .searchfield-input {
+    padding-left: 10px;
+}
+
+/* here we handle left border of the adressbar */
+.addressfield .addressfield-siteinfo{
+  background-color: #404552 !important;*/
+}
+
+/* here we handle the right border of the adressbar */
+button.button-addressfield{
+  background-color: #404552 !important;*/
+}
+
+/* color of dropdown meny with sigestions */
+.urlSearch{
+  background-color: #2f343f !important;
+  opacity: 0.9;
+}
+
+/* opacity of toolbar buttons, home, next, previous... */
+.button-toolbar{
+  opacity: 0.6 !important;
+}
+
+/* size of toolbar buttons, home, next, previous... */
+.toolbar.toolbar-addressbar .button-toolbar svg {
+    width: 20px;
+}
+
+/*
+////////////////////////////////
+///                          ///
+///     bookmark-bar         ///
+///                          ///
+////////////////////////////////
+*/
+
+.bookmark-bar{
+  background-color: #2f343f !important;
+}
+
+/*
+////////////////////////////////
+///                          ///
+///         sidebar          ///
+///                          ///
+////////////////////////////////
+*/
+
+/* the panel with show/hide icon */
+#panel_switch{
+  background-color: #2f343f !important;
+  -webkit-filter: invert(10%) !important;
+}
+
+/* the panel with download, bookmark, history icons */
+#switch{
+  background-color: #2f343f !important;
+}
+
+.panel-group{
+  background-color: #2f343f !important;
+}
+
+#switch button.active{
+  background-color: #404552 !important;
+}
+
+/*
+////////////////////////////////
+///                          ///
+///       startpage          ///
+///                          ///
+////////////////////////////////
+*/
+
+/* background behind pined websites */
+.sdwrapper{
+  background-color: #d3dae3 !important;
+}
+
+/* navigation (speed dialm, bookmasrks, history) */
+.startpage-navigation, .startpage-navigation-group, .button-startpage{
+  background-color: #3F434C !important;
+  color: black !important;
+}
