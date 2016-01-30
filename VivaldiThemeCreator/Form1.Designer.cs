@@ -63,7 +63,7 @@
             this.btnCreateCopyOfOriginalHtml.Name = "btnCreateCopyOfOriginalHtml";
             this.btnCreateCopyOfOriginalHtml.Size = new System.Drawing.Size(182, 23);
             this.btnCreateCopyOfOriginalHtml.TabIndex = 0;
-            this.btnCreateCopyOfOriginalHtml.Text = "Create copy of original html";
+            this.btnCreateCopyOfOriginalHtml.Text = "Create backup";
             this.btnCreateCopyOfOriginalHtml.UseVisualStyleBackColor = true;
             this.btnCreateCopyOfOriginalHtml.Click += new System.EventHandler(this.btnCreateCopyOfOriginalHtml_Click);
             // 
@@ -73,7 +73,7 @@
             this.btnPatchVivaldi.Name = "btnPatchVivaldi";
             this.btnPatchVivaldi.Size = new System.Drawing.Size(182, 23);
             this.btnPatchVivaldi.TabIndex = 1;
-            this.btnPatchVivaldi.Text = "PatchVivaldi";
+            this.btnPatchVivaldi.Text = "Patch Vivaldi";
             this.btnPatchVivaldi.UseVisualStyleBackColor = true;
             this.btnPatchVivaldi.Click += new System.EventHandler(this.btnPatchVivaldi_Click);
             // 
@@ -83,7 +83,7 @@
             this.btnApplyStyle.Name = "btnApplyStyle";
             this.btnApplyStyle.Size = new System.Drawing.Size(182, 23);
             this.btnApplyStyle.TabIndex = 2;
-            this.btnApplyStyle.Text = "ApplyStyle";
+            this.btnApplyStyle.Text = "Apply custom theme";
             this.btnApplyStyle.UseVisualStyleBackColor = true;
             this.btnApplyStyle.Click += new System.EventHandler(this.btnApplyStyle_Click);
             // 
@@ -93,7 +93,7 @@
             this.btnResetToDefault.Name = "btnResetToDefault";
             this.btnResetToDefault.Size = new System.Drawing.Size(183, 23);
             this.btnResetToDefault.TabIndex = 5;
-            this.btnResetToDefault.Text = "Reset to defaults";
+            this.btnResetToDefault.Text = "Don\'t use custom themes";
             this.btnResetToDefault.UseVisualStyleBackColor = true;
             this.btnResetToDefault.Click += new System.EventHandler(this.btnResetToDefault_Click);
             // 
