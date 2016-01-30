@@ -13,17 +13,21 @@ namespace VivaldiThemeCreator
         private String customCss { get; set; }
         private String templateLocation { get; set; }
 
+        private InternetExplorerTemplate template { get; set; }
+
         Color frameColor { get; set; }
         Color activeTabColor { get; set; }
         Color inactiveTabsColor { get; set; }
         Color panelColor { get; set; }
 
-        public InternetExplorerStyle(String customCss, String template)
+        public InternetExplorerStyle(String customCss, String templateLocation)
         {
             name = "Internet Explorer";
 
             this.customCss = customCss;
-            this.templateLocation = template;
+            this.templateLocation = templateLocation;
+
+            template = new InternetExplorerTemplate();
         }
 
         public String GetName()
@@ -51,22 +55,14 @@ namespace VivaldiThemeCreator
             inactiveTabsColor = color;
         }
 
-        // note1: this method might throw exception while readiing or writing to a file
+        // note1: this method might throw exception while readiing or writing to a local file
         // note2: the exception is handled in Form1.cs
         public void ApplyStyle()
         {
-            // note1: use empty using statement to create new empty document and avoid using of Dispose()
-            using (System.IO.File.Create(customCss)) ;
-            String[] template = System.IO.File.ReadAllLines(templateLocation);
+            String templateAsString = template.GetTemplate();
 
-            using (System.IO.StreamWriter file = new System.IO.StreamWriter(customCss, true))
-            {
-                foreach (String s in template)
-                {
-                    file.Write(s);
-                    file.Write("\n");
-                }
-            }
+            using (System.IO.File.Create(customCss)) ;
+            System.IO.File.WriteAllText(customCss, templateAsString);
         }
 
         // note1: this method might throw exception while reading or writing to a file

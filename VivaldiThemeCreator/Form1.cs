@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,18 +20,26 @@ namespace VivaldiThemeCreator
 
         Style style { get; set; }
 
+        String username { get; set; }
+        String root { get; set; }
+
         public Form1()
         {
             InitializeComponent();
 
+            username = Environment.UserName;
+            root = Path.GetPathRoot(Environment.GetFolderPath(Environment.SpecialFolder.System));
+
             // note1: use '@' to insert unmodified path, otherwise will need to use escape char '\' in path
-            htmlOriginal = @"C:\Users\borche\AppData\Local\Vivaldi\Application\1.0.344.37\resources\vivaldi\browser.html";
-            htmlBackup = @"C:\Users\borche\AppData\Local\Vivaldi\Application\1.0.344.37\resources\vivaldi\browserBackup.html";
-            customCss = @"C:\Users\borche\AppData\Local\Vivaldi\Application\1.0.344.37\resources\vivaldi\style\custom.css";
-            templateInternetExplorer = @"D:\Copy\vivaldi_internet_explorer_style.css";
+            htmlOriginal = root + @"Users\" + username + @"\AppData\Local\Vivaldi\Application\1.0.344.37\resources\vivaldi\browser.html";
+            htmlBackup = root + @"Users\" + username + @"\AppData\Local\Vivaldi\Application\1.0.344.37\resources\vivaldi\browserBackup.html";
+            customCss = root + @"Users\" + username + @"\AppData\Local\Vivaldi\Application\1.0.344.37\resources\vivaldi\style\custom.css";
+
+            // templateInternetExplorer = @"D:\Copy\vivaldi_internet_explorer_style.css";
+            templateInternetExplorer = root + @"Users\" + username + @"\AppData\Local\Vivaldi\Application\1.0.344.37\resources\vivaldi\style\vivaldi_internet_explorer_style.css";
 
             Style internetExplorerStyle = new InternetExplorerStyle(customCss, templateInternetExplorer);
-            Style basicStyle = new BasicStyle();
+            Style basicStyle = new BasicStyle(customCss, templateInternetExplorer);
 
             cbStyles.Items.Add(basicStyle);
             cbStyles.Items.Add(internetExplorerStyle);
@@ -193,7 +202,19 @@ namespace VivaldiThemeCreator
 
         private void UpDateTipsAndTriicks()
         {
-            tbTipsAndTricks.Text = "Use same color for Window frape, Panel, and Inactive tab. Chose deferent color for Active tab.";
+            // use '/r/n' to write new line
+            // note1: TextBox stores text in array of lines. 
+            // note2: You can use TextBox.Lines to acces lines or
+            // use '/r/n' write new line bu using only array of one line
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Internet Explorer:\r\n");
+            sb.Append("Use same color for Window frape, Panel, and Inactive tabs. Chose deferent color for Active tab.\r\n");
+
+            sb.Append("\r\n");
+            sb.Append("Basic:\r\n");
+            sb.Append("Use same color for Window frame and inactive tabs. Use same color for Panel and Active tab\r\n");
+
+            tbTipsAndTricks.Text = sb.ToString();
         }
 
     }
