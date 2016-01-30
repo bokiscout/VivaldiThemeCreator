@@ -36,22 +36,25 @@
             this.btnResetToDefault = new System.Windows.Forms.Button();
             this.cbStyles = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.panIExplorer = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.btnFrame = new System.Windows.Forms.Button();
-            this.btnInactiveTab = new System.Windows.Forms.Button();
-            this.btnAcriveTab = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btnPanelColor = new System.Windows.Forms.Button();
+            this.cbWideAdressbarColor = new System.Windows.Forms.CheckBox();
             this.cbCustomColors = new System.Windows.Forms.CheckBox();
+            this.btnPanelColor = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnAcriveTab = new System.Windows.Forms.Button();
+            this.btnInactiveTab = new System.Windows.Forms.Button();
+            this.btnFrame = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.pbInternetExplorer = new System.Windows.Forms.PictureBox();
             this.pbDefault = new System.Windows.Forms.PictureBox();
-            this.cbWideAdressbarColor = new System.Windows.Forms.CheckBox();
-            this.panIExplorer.SuspendLayout();
+            this.gbCustomColors = new System.Windows.Forms.GroupBox();
+            this.gbTipsAndTricks = new System.Windows.Forms.GroupBox();
+            this.tbTipsAndTricks = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbInternetExplorer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDefault)).BeginInit();
+            this.gbCustomColors.SuspendLayout();
+            this.gbTipsAndTricks.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnCreateCopyOfOriginalHtml
@@ -112,105 +115,101 @@
             this.label2.TabIndex = 7;
             this.label2.Text = "Chose style";
             // 
-            // panIExplorer
+            // cbWideAdressbarColor
             // 
-            this.panIExplorer.Controls.Add(this.cbWideAdressbarColor);
-            this.panIExplorer.Controls.Add(this.cbCustomColors);
-            this.panIExplorer.Controls.Add(this.btnPanelColor);
-            this.panIExplorer.Controls.Add(this.label5);
-            this.panIExplorer.Controls.Add(this.btnAcriveTab);
-            this.panIExplorer.Controls.Add(this.btnInactiveTab);
-            this.panIExplorer.Controls.Add(this.btnFrame);
-            this.panIExplorer.Controls.Add(this.label4);
-            this.panIExplorer.Controls.Add(this.label3);
-            this.panIExplorer.Controls.Add(this.label1);
-            this.panIExplorer.Location = new System.Drawing.Point(438, 167);
-            this.panIExplorer.Name = "panIExplorer";
-            this.panIExplorer.Size = new System.Drawing.Size(368, 181);
-            this.panIExplorer.TabIndex = 8;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(225, 75);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Acrive tab";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(214, 104);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Inactive tabs";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(205, 17);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(75, 13);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Window frame";
-            // 
-            // btnFrame
-            // 
-            this.btnFrame.Location = new System.Drawing.Point(288, 12);
-            this.btnFrame.Name = "btnFrame";
-            this.btnFrame.Size = new System.Drawing.Size(75, 23);
-            this.btnFrame.TabIndex = 3;
-            this.btnFrame.UseVisualStyleBackColor = true;
-            this.btnFrame.Click += new System.EventHandler(this.btnFrame_Click);
-            // 
-            // btnInactiveTab
-            // 
-            this.btnInactiveTab.Location = new System.Drawing.Point(288, 99);
-            this.btnInactiveTab.Name = "btnInactiveTab";
-            this.btnInactiveTab.Size = new System.Drawing.Size(75, 23);
-            this.btnInactiveTab.TabIndex = 4;
-            this.btnInactiveTab.UseVisualStyleBackColor = true;
-            this.btnInactiveTab.Click += new System.EventHandler(this.btnInactiveTab_Click);
-            // 
-            // btnAcriveTab
-            // 
-            this.btnAcriveTab.Location = new System.Drawing.Point(288, 70);
-            this.btnAcriveTab.Name = "btnAcriveTab";
-            this.btnAcriveTab.Size = new System.Drawing.Size(75, 23);
-            this.btnAcriveTab.TabIndex = 5;
-            this.btnAcriveTab.UseVisualStyleBackColor = true;
-            this.btnAcriveTab.Click += new System.EventHandler(this.btnAcriveTab_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(246, 46);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 13);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Panel";
-            // 
-            // btnPanelColor
-            // 
-            this.btnPanelColor.Location = new System.Drawing.Point(288, 41);
-            this.btnPanelColor.Name = "btnPanelColor";
-            this.btnPanelColor.Size = new System.Drawing.Size(75, 23);
-            this.btnPanelColor.TabIndex = 7;
-            this.btnPanelColor.UseVisualStyleBackColor = true;
-            this.btnPanelColor.Click += new System.EventHandler(this.btnPanelColor_Click);
+            this.cbWideAdressbarColor.AutoSize = true;
+            this.cbWideAdressbarColor.Checked = true;
+            this.cbWideAdressbarColor.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cbWideAdressbarColor.Location = new System.Drawing.Point(80, 167);
+            this.cbWideAdressbarColor.Name = "cbWideAdressbarColor";
+            this.cbWideAdressbarColor.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.cbWideAdressbarColor.Size = new System.Drawing.Size(139, 17);
+            this.cbWideAdressbarColor.TabIndex = 9;
+            this.cbWideAdressbarColor.Text = "Fix wide adressbar color";
+            this.cbWideAdressbarColor.UseVisualStyleBackColor = true;
             // 
             // cbCustomColors
             // 
             this.cbCustomColors.AutoSize = true;
-            this.cbCustomColors.Location = new System.Drawing.Point(3, 3);
+            this.cbCustomColors.Location = new System.Drawing.Point(106, 19);
             this.cbCustomColors.Name = "cbCustomColors";
             this.cbCustomColors.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.cbCustomColors.Size = new System.Drawing.Size(113, 17);
             this.cbCustomColors.TabIndex = 8;
             this.cbCustomColors.Text = "Use custom colors";
             this.cbCustomColors.UseVisualStyleBackColor = true;
+            // 
+            // btnPanelColor
+            // 
+            this.btnPanelColor.Location = new System.Drawing.Point(144, 72);
+            this.btnPanelColor.Name = "btnPanelColor";
+            this.btnPanelColor.Size = new System.Drawing.Size(75, 23);
+            this.btnPanelColor.TabIndex = 7;
+            this.btnPanelColor.UseVisualStyleBackColor = true;
+            this.btnPanelColor.Click += new System.EventHandler(this.btnPanelColor_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(104, 77);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(34, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Panel";
+            // 
+            // btnAcriveTab
+            // 
+            this.btnAcriveTab.Location = new System.Drawing.Point(144, 101);
+            this.btnAcriveTab.Name = "btnAcriveTab";
+            this.btnAcriveTab.Size = new System.Drawing.Size(75, 23);
+            this.btnAcriveTab.TabIndex = 5;
+            this.btnAcriveTab.UseVisualStyleBackColor = true;
+            this.btnAcriveTab.Click += new System.EventHandler(this.btnAcriveTab_Click);
+            // 
+            // btnInactiveTab
+            // 
+            this.btnInactiveTab.Location = new System.Drawing.Point(144, 130);
+            this.btnInactiveTab.Name = "btnInactiveTab";
+            this.btnInactiveTab.Size = new System.Drawing.Size(75, 23);
+            this.btnInactiveTab.TabIndex = 4;
+            this.btnInactiveTab.UseVisualStyleBackColor = true;
+            this.btnInactiveTab.Click += new System.EventHandler(this.btnInactiveTab_Click);
+            // 
+            // btnFrame
+            // 
+            this.btnFrame.Location = new System.Drawing.Point(144, 43);
+            this.btnFrame.Name = "btnFrame";
+            this.btnFrame.Size = new System.Drawing.Size(75, 23);
+            this.btnFrame.TabIndex = 3;
+            this.btnFrame.UseVisualStyleBackColor = true;
+            this.btnFrame.Click += new System.EventHandler(this.btnFrame_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(63, 48);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(75, 13);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Window frame";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(70, 135);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(68, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Inactive tabs";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(83, 106);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(55, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Acrive tab";
             // 
             // pbInternetExplorer
             // 
@@ -230,25 +229,53 @@
             this.pbDefault.TabIndex = 11;
             this.pbDefault.TabStop = false;
             // 
-            // cbWideAdressbarColor
+            // gbCustomColors
             // 
-            this.cbWideAdressbarColor.AutoSize = true;
-            this.cbWideAdressbarColor.Checked = true;
-            this.cbWideAdressbarColor.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbWideAdressbarColor.Location = new System.Drawing.Point(224, 158);
-            this.cbWideAdressbarColor.Name = "cbWideAdressbarColor";
-            this.cbWideAdressbarColor.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cbWideAdressbarColor.Size = new System.Drawing.Size(139, 17);
-            this.cbWideAdressbarColor.TabIndex = 9;
-            this.cbWideAdressbarColor.Text = "Fix wide adressbar color";
-            this.cbWideAdressbarColor.UseVisualStyleBackColor = true;
+            this.gbCustomColors.Controls.Add(this.cbCustomColors);
+            this.gbCustomColors.Controls.Add(this.btnInactiveTab);
+            this.gbCustomColors.Controls.Add(this.btnAcriveTab);
+            this.gbCustomColors.Controls.Add(this.label5);
+            this.gbCustomColors.Controls.Add(this.label3);
+            this.gbCustomColors.Controls.Add(this.label1);
+            this.gbCustomColors.Controls.Add(this.btnPanelColor);
+            this.gbCustomColors.Controls.Add(this.btnFrame);
+            this.gbCustomColors.Controls.Add(this.label4);
+            this.gbCustomColors.Controls.Add(this.cbWideAdressbarColor);
+            this.gbCustomColors.Location = new System.Drawing.Point(600, 160);
+            this.gbCustomColors.Name = "gbCustomColors";
+            this.gbCustomColors.Size = new System.Drawing.Size(226, 190);
+            this.gbCustomColors.TabIndex = 12;
+            this.gbCustomColors.TabStop = false;
+            this.gbCustomColors.Text = "Custom colors";
+            // 
+            // gbTipsAndTricks
+            // 
+            this.gbTipsAndTricks.Controls.Add(this.tbTipsAndTricks);
+            this.gbTipsAndTricks.Location = new System.Drawing.Point(297, 160);
+            this.gbTipsAndTricks.Name = "gbTipsAndTricks";
+            this.gbTipsAndTricks.Size = new System.Drawing.Size(200, 190);
+            this.gbTipsAndTricks.TabIndex = 13;
+            this.gbTipsAndTricks.TabStop = false;
+            this.gbTipsAndTricks.Text = "Tips";
+            // 
+            // tbTipsAndTricks
+            // 
+            this.tbTipsAndTricks.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.tbTipsAndTricks.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbTipsAndTricks.Location = new System.Drawing.Point(10, 23);
+            this.tbTipsAndTricks.Multiline = true;
+            this.tbTipsAndTricks.Name = "tbTipsAndTricks";
+            this.tbTipsAndTricks.Size = new System.Drawing.Size(184, 161);
+            this.tbTipsAndTricks.TabIndex = 1;
+            this.tbTipsAndTricks.Text = "Tips and tricks";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(838, 360);
-            this.Controls.Add(this.panIExplorer);
+            this.Controls.Add(this.gbTipsAndTricks);
+            this.Controls.Add(this.gbCustomColors);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cbStyles);
             this.Controls.Add(this.btnResetToDefault);
@@ -259,10 +286,12 @@
             this.Controls.Add(this.pbInternetExplorer);
             this.Name = "Form1";
             this.Text = "Vivaldi Theme Creator";
-            this.panIExplorer.ResumeLayout(false);
-            this.panIExplorer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbInternetExplorer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDefault)).EndInit();
+            this.gbCustomColors.ResumeLayout(false);
+            this.gbCustomColors.PerformLayout();
+            this.gbTipsAndTricks.ResumeLayout(false);
+            this.gbTipsAndTricks.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -277,7 +306,6 @@
         private System.Windows.Forms.Button btnResetToDefault;
         private System.Windows.Forms.ComboBox cbStyles;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panIExplorer;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
@@ -290,6 +318,9 @@
         private System.Windows.Forms.PictureBox pbInternetExplorer;
         private System.Windows.Forms.PictureBox pbDefault;
         private System.Windows.Forms.CheckBox cbWideAdressbarColor;
+        private System.Windows.Forms.GroupBox gbCustomColors;
+        private System.Windows.Forms.GroupBox gbTipsAndTricks;
+        private System.Windows.Forms.TextBox tbTipsAndTricks;
     }
 }
 

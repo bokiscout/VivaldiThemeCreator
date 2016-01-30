@@ -7,3 +7,12 @@ D:\Copy\VisualStudioWorkspace\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\
 D:\Copy\VisualStudioWorkspace\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.csproj.GenerateResource.Cache
 D:\Copy\VisualStudioWorkspace\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.exe
 D:\Copy\VisualStudioWorkspace\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.pdb
+D:\GitHubWindows\VivaldiThemeCreator\VivaldiThemeCreator\bin\Debug\VivaldiThemeCreator.exe.config
+D:\GitHubWindows\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.exe
+D:\GitHubWindows\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.pdb
+D:\GitHubWindows\VivaldiThemeCreator\VivaldiThemeCreator\bin\Debug\VivaldiThemeCreator.exe
+D:\GitHubWindows\VivaldiThemeCreator\VivaldiThemeCreator\bin\Debug\VivaldiThemeCreator.pdb
+D:\GitHubWindows\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.csprojResolveAssemblyReference.cache
+D:\GitHubWindows\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.Form1.resources
+D:\GitHubWindows\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.Properties.Resources.resources
+D:\GitHubWindows\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.csproj.GenerateResource.Cache

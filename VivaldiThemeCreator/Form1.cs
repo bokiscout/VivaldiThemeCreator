@@ -34,6 +34,12 @@ namespace VivaldiThemeCreator
 
             cbStyles.Items.Add(basicStyle);
             cbStyles.Items.Add(internetExplorerStyle);
+
+            // note1: 'SelectedIndex = <someNumber>' should select 'BasicStyle'
+            // note2:  index of 'BasicStyle' might change to other value when new styles are being added to 'cbStyles'
+            cbStyles.SelectedIndex = 0;
+
+            UpDateTipsAndTriicks();
         }
 
         // creates a copy of original file
@@ -112,10 +118,13 @@ namespace VivaldiThemeCreator
                 {
                     UpdateColorsFromButtons();
                     style.ApplyCustomColors();
+                    
+                    if (cbWideAdressbarColor.Checked == true)
+                    {
+                        style.FixWideAdressbarColor();
+                    }
                 }
-                if (cbWideAdressbarColor.Checked == true) {
-                    style.FixWideAdressbarColor();
-                }
+                
                 MessageBox.Show("Style applied sucessfully. Restart Vivaldi to see changes");
             }
             catch (Exception ex)
@@ -180,6 +189,11 @@ namespace VivaldiThemeCreator
             style.SetPanelColor(btnPanelColor.BackColor);
             style.SetActiveTabColor(btnAcriveTab.BackColor);
             style.SetInactiveTabColor(btnInactiveTab.BackColor);
+        }
+
+        private void UpDateTipsAndTriicks()
+        {
+            tbTipsAndTricks.Text = "Use same color for Window frape, Panel, and Inactive tab. Chose deferent color for Active tab.";
         }
 
     }
