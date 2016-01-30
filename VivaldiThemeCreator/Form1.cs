@@ -146,7 +146,14 @@ namespace VivaldiThemeCreator
         // reset the UI by creating empty custom.css file
         private void btnResetToDefault_Click(object sender, EventArgs e)
         {
-            using (System.IO.File.Create(customCss)) ;
+            try{
+                using (System.IO.File.Create(customCss)) ;
+                MessageBox.Show("Theme has been restored to default one. Restart Vivaldi to see the changes");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void cbStyles_SelectedIndexChanged(object sender, EventArgs e)
