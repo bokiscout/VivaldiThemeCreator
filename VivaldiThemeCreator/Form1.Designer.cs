@@ -284,6 +284,7 @@
             this.Controls.Add(this.btnCreateCopyOfOriginalHtml);
             this.Controls.Add(this.pbDefault);
             this.Controls.Add(this.pbInternetExplorer);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Vivaldi Theme Creator";
             ((System.ComponentModel.ISupportInitialize)(this.pbInternetExplorer)).EndInit();
