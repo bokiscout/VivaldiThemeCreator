@@ -28,6 +28,9 @@ Create custom themes for Vivaldi web browser with just a few mouse clicks.
 
 - Finaly press "Apply" and restart Vivaldi to see changes.
 
+## How to download?
+Click [here](https://github.com/bokiscout/VivaldiThemeCreator/releases/download/1.0.0/VivaldiThemeCreator.exe), or go to [releases](https://github.com/bokiscout/VivaldiThemeCreator/releases/) and download latest.
+
 ## To do:
 - Add more themes
 - Add more customization options. (color for sidebar, adressbar, adressbar dropdown...)
@@ -35,4 +38,4 @@ Create custom themes for Vivaldi web browser with just a few mouse clicks.
 - Create instalation file.
 
 ## Requrements:
-.netFramevork, probably 4.0 or higher.
+.netFramevork 4.0 or higher.
