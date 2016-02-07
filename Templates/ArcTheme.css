@@ -1,0 +1,20 @@
+
+#header{
+background-color:  rgb(231,232,235);
+}
+
+
+#main.left > .toolbar{
+background-color:  rgb(245,246,247);
+}
+
+
+.tab.active{
+background-color:  rgb(245,246,247) !important;
+}
+
+
+.tab{
+background-color:  rgb(231,232,235) !important;
+}
+
