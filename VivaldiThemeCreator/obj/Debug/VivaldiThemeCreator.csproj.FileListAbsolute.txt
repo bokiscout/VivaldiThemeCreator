@@ -16,3 +16,12 @@ D:\GitHubWindows\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeC
 D:\GitHubWindows\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.Form1.resources
 D:\GitHubWindows\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.Properties.Resources.resources
 D:\GitHubWindows\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.csproj.GenerateResource.Cache
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\bin\Debug\VivaldiThemeCreator.exe.config
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.exe
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.pdb
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\bin\Debug\VivaldiThemeCreator.exe
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\bin\Debug\VivaldiThemeCreator.pdb
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.csprojResolveAssemblyReference.cache
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.Form1.resources
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.Properties.Resources.resources
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Debug\VivaldiThemeCreator.csproj.GenerateResource.Cache

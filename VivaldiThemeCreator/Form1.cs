@@ -22,6 +22,7 @@ namespace VivaldiThemeCreator
 
         String username { get; set; }
         String root { get; set; }
+        String buildNumber { get; set; }
 
         public Form1()
         {
@@ -29,11 +30,13 @@ namespace VivaldiThemeCreator
 
             username = Environment.UserName;
             root = Path.GetPathRoot(Environment.GetFolderPath(Environment.SpecialFolder.System));
+            //buildNumber = "1.0.435.38";
+            buildNumber = "1.0.435.42";
 
             // note1: use '@' to insert unmodified path, otherwise will need to use escape char '\' in path
-            htmlOriginal = root + @"Users\" + username + @"\AppData\Local\Vivaldi\Application\1.0.344.37\resources\vivaldi\browser.html";
-            htmlBackup = root + @"Users\" + username + @"\AppData\Local\Vivaldi\Application\1.0.344.37\resources\vivaldi\browserBackup.html";
-            customCss = root + @"Users\" + username + @"\AppData\Local\Vivaldi\Application\1.0.344.37\resources\vivaldi\style\custom.css";
+            htmlOriginal = root + @"Users\" + username + @"\AppData\Local\Vivaldi\Application\" + buildNumber + @"\resources\vivaldi\browser.html";
+            htmlBackup = root + @"Users\" + username + @"\AppData\Local\Vivaldi\Application\" + buildNumber + @"\resources\vivaldi\browserBackup.html";
+            customCss = root + @"Users\" + username + @"\AppData\Local\Vivaldi\Application\" + buildNumber + @"\resources\vivaldi\style\custom.css";
 
             // templateInternetExplorer = @"D:\Copy\vivaldi_internet_explorer_style.css";
             templateInternetExplorer = root + @"Users\" + username + @"\AppData\Local\Vivaldi\Application\1.0.344.37\resources\vivaldi\style\vivaldi_internet_explorer_style.css";
