@@ -14,27 +14,20 @@ namespace VivaldiThemeCreator
         // default constructor set the template
         public InternetExplorerTemplate(){
             template =
-                @"/* everything in one row is not usable on small screens/windows */
-@media screen and (max-width: 900px) {
+@"/* everything in one row is not usable on small screens/windows */
+@media screen and (max-width: 950px) {
   #tabs-container{
     width: 100% !important;
     margin-left: 0px !important;
   }
 
-/*  #tabs-container .resize{
-    left: 40px !important;
-  }*/
-
-  #main{
-    margin-top: 0px !important;
-  }
-
   #main.left > .toolbar{
     width: 100% !important;
-    /*left: 34px !important;*/
+    position: static !important;
+    top: 50px !important;
+    left: 34px !important;
     /*background-color: rgba(255, 0, 0, 0) !important;*/
   }
-
 }
 
 /*
@@ -44,6 +37,7 @@ namespace VivaldiThemeCreator
 ///                   ///
 /////////////////////////
 */
+
 #header{
   /*background-color: gray;*/
 }
@@ -56,26 +50,24 @@ namespace VivaldiThemeCreator
 ///                   ///
 /////////////////////////
 */
-#main{
-    margin-top: -34px;
-    z-index: 10;
-}
 
 #main.left > .toolbar{
-  width: 40%;
+  width: 50%;
   padding-right: -100px;
+  position: absolute;
+  top: -34px;
+  left: 34px;
   background-color: rgba(255, 0, 0, 0);
 }
 
 #tabs-container{
-  width: 60%;
+  width: 50%;
   float: right;
 }
 
 /*move tabs right some pixeles to prevent overlap with adressbar*/
 #tabs-container > .resize{
   margin-left: 135px;
-  z-index: 12;
 }
 
 
@@ -89,25 +81,7 @@ namespace VivaldiThemeCreator
 .searchfield{
   display: none !important;
 }
-
-
-/*
-/////////////////////////
-///                   ///
-///   vivaldi button  ///
-///                   ///
-/////////////////////////
-*/
-.vivaldi{
-  display: none;
-}
-
-.window-buttongroup{
-  z-index: 99999;
-
-/* end */
-
-}";
+";
         } // default constructor ends here
 
         public String GetTemplate()
