@@ -29,7 +29,7 @@ Create custom themes for Vivaldi web browser with just a few mouse clicks.
 - Finaly press "Apply" and restart Vivaldi to see changes.
 
 ## How to download?
-Click [here](https://github.com/bokiscout/VivaldiThemeCreator/releases/download/1.0.0/VivaldiThemeCreator.exe), or go to [releases](https://github.com/bokiscout/VivaldiThemeCreator/releases/) and download latest.
+Go to [releases](https://github.com/bokiscout/VivaldiThemeCreator/releases/) and download the latest one.
 
 ## To do:
 - Add more themes
