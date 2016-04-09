@@ -14,7 +14,14 @@ namespace VivaldiThemeCreator
         // default constructor set the template
         public InternetExplorerTemplate(){
             template =
-@"@media screen and (max-width: 900px) {
+@"/*
+/////////////////////////
+///                   ///
+///    small window   ///
+///                   ///
+/////////////////////////
+*/
+@media screen and (max-width: 950px) {
   #tabs-container{
     width: 100% !important;
     margin-left: 0px !important;
@@ -73,10 +80,14 @@ namespace VivaldiThemeCreator
 
 /*move tabs right some pixeles to prevent overlap with adressbar*/
 #tabs-container > .resize{
-  margin-left: 135px;
+  margin-left: 140px;
   z-index: 12;
 }
 
+/*remove botom border/shadow from toolar */
+.toolbar.toolbar-addressbar:after{
+  background-color: rgba(0, 0, 0, 0) !important;
+}
 
 /*
 /////////////////////////
@@ -103,8 +114,9 @@ namespace VivaldiThemeCreator
 
 .window-buttongroup{
   z-index: 99999;
-
-/* end */";
+}
+/* end */
+";
         } // default constructor ends here
 
         public String GetTemplate()
