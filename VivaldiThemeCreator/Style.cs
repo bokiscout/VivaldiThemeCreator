@@ -10,6 +10,7 @@ namespace VivaldiThemeCreator
     interface Style
     {
         void ApplyStyle();
+
         String GetName();
 
         void ApplyCustomColors();

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VivaldiThemeCreator.exe" version="1.0.0.0" publicKeyToken="e3f926c6249e47c2" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="VivaldiIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VivaldiThemeCreator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="VivaldiThemeCreator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VivaldiThemeCreator.exe" size="137248">
+      <assemblyIdentity name="VivaldiThemeCreator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bv0vyTNaDkVUepF7Ik/yuv8Su4nIJzUZVmVL8RaJDCg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="aa\VivaldiThemeCreator.resources.dll" size="19456">
+      <assemblyIdentity name="VivaldiThemeCreator.resources" version="1.0.0.0" language="aa" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UWg8dpzJv5PTMJ2o/8wAU6dMNs9lqa+TkiMJT3LM6ac=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="VivaldiIcon.ico" size="15422">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oUCSCoQ28e9N2R4kvSU0cB8cdtBaWPK4r3adBE/GLo4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="VivaldiThemeCreator.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-WINDOWS\Borche Jankovski" issuerKeyHash="0410259fac4cf8f6445cc7f4e3517ea027c25ec2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>y4BLxqtOBv/B8r95aqvEqbciVQcFHP/mKvoBcy6ZTuE=</DigestValue></Reference></SignedInfo><SignatureValue>PVyJtTig2yhiGkuKZqFJkezTq/XRWcKbCjgQMD8mOiCDtC4kHwCjjAaxMjqNqwPhAOIF2yD5OXn8BA3wxsMkjsm1rhyK8V+UnjGKm1lrtS/i3Ei76jfeBKEAQnejiJzXRIc3lGcH5eIVurv1q92fSzu6u81M3SNnUVnUoW7CcF0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>204po/BxY+e+/QPNTLtZjle30lGmyGOrkerQCB3q33U+e265BuybLRYOt7XDm0NOid8Ajh5uxMjoitIzQVcUH2CyXoo9589Xow50HL3OyIrIAWc5Cjh1aSyyhTtVIYdU3ztRcaa5lxnrqMRmv+kU68V947ISxj/UysvN1bhMfO8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e14e992e7301fa2ae6ff1c05075522b7a9c4ab6a79bff2c1ff064eabc64b80cb" Description="" Url=""><as:assemblyIdentity name="VivaldiThemeCreator.exe" version="1.0.0.0" publicKeyToken="e3f926c6249e47c2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-WINDOWS\Borche Jankovski</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bV2etaesWyb7/dR74d4Taw9IzE5c/xTzj2VhxuIovPQ=</DigestValue></Reference></SignedInfo><SignatureValue>I/7wC1vuDhQG7IteNwF6MeYRIhya8w8B8EWJaAO2MSCjXPBiZ9ntI3xQlPr9v8brFT0o6zqrnksN9XnZDld9KrTro74xSUiX4LqfMYG88CrpPG5CRUKNx8X456ru+fxeB6S78Ed8KbB7CI4qtD/DFoyNvnpNiQ0yYhoUNRiS5wQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>204po/BxY+e+/QPNTLtZjle30lGmyGOrkerQCB3q33U+e265BuybLRYOt7XDm0NOid8Ajh5uxMjoitIzQVcUH2CyXoo9589Xow50HL3OyIrIAWc5Cjh1aSyyhTtVIYdU3ztRcaa5lxnrqMRmv+kU68V947ISxj/UysvN1bhMfO8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICGTCCAYKgAwIBAgIQEFnnb9um1pBCFtWkk5uk4zANBgkqhkiG9w0BAQsFADBLMUkwRwYDVQQDHkAARABFAFMASwBUAE8AUAAtAFcASQBOAEQATwBXAFMAXABCAG8AcgBjAGgAZQAgAEoAYQBuAGsAbwB2AHMAawBpMB4XDTE2MDYyNzIwMDkwM1oXDTE3MDYyODAyMDkwM1owSzFJMEcGA1UEAx5AAEQARQBTAEsAVABPAFAALQBXAEkATgBEAE8AVwBTAFwAQgBvAHIAYwBoAGUAIABKAGEAbgBrAG8AdgBzAGsAaTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA204po/BxY+e+/QPNTLtZjle30lGmyGOrkerQCB3q33U+e265BuybLRYOt7XDm0NOid8Ajh5uxMjoitIzQVcUH2CyXoo9589Xow50HL3OyIrIAWc5Cjh1aSyyhTtVIYdU3ztRcaa5lxnrqMRmv+kU68V947ISxj/UysvN1bhMfO8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQA9aHuPSe96LC914g/918zcbq5At2tGYH6oosdUb1Mx9i8hu77NiaLSDthDIaSzaepyq0CwXuB09LXbZVaf+GXgUVUmmE/mWHjIV0pX+WBKCnKOE6dT01poAI4HYV7lkY6KmV0HItbmC6fmnFrMeAsiD07Mt7VFOemZ8YbkVr5KOQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

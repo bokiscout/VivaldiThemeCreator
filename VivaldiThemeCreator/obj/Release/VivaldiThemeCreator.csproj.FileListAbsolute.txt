@@ -1,0 +1,17 @@
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\bin\Release\VivaldiThemeCreator.exe.config
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\bin\Release\VivaldiThemeCreator.exe
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\bin\Release\VivaldiThemeCreator.pdb
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\bin\Release\aa\VivaldiThemeCreator.resources.dll
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Release\VivaldiThemeCreator.Form1.resources
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Release\VivaldiThemeCreator.FormAbout.resources
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Release\VivaldiThemeCreator.Properties.Resources.resources
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Release\VivaldiThemeCreator.FormAbout.aa.resources
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Release\VivaldiThemeCreator.csproj.GenerateResource.Cache
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Release\aa\VivaldiThemeCreator.resources.dll
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Release\VivaldiThemeCreator.exe
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Release\VivaldiThemeCreator.pdb
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\bin\Release\VivaldiThemeCreator.exe.manifest
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\bin\Release\VivaldiThemeCreator.application
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Release\VivaldiThemeCreator.csprojResolveAssemblyReference.cache
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Release\VivaldiThemeCreator.exe.manifest
+C:\Users\Borche Jankovski\Documents\GitHub\VivaldiThemeCreator\VivaldiThemeCreator\obj\Release\VivaldiThemeCreator.application

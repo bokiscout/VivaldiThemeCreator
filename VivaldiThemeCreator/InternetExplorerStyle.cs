@@ -11,7 +11,7 @@ namespace VivaldiThemeCreator
     {
         private String name { get; set; }
         private String customCss { get; set; }
-        private String templateLocation { get; set; }
+        //private String templateLocation { get; set; }
 
         private InternetExplorerTemplate template { get; set; }
 
@@ -20,12 +20,12 @@ namespace VivaldiThemeCreator
         Color inactiveTabsColor { get; set; }
         Color panelColor { get; set; }
 
-        public InternetExplorerStyle(String customCss, String templateLocation)
+        public InternetExplorerStyle(String customCss)
         {
             name = "Internet Explorer";
 
             this.customCss = customCss;
-            this.templateLocation = templateLocation;
+            //this.templateLocation = templateLocation;
 
             template = new InternetExplorerTemplate();
         }

@@ -11,19 +11,19 @@ namespace VivaldiThemeCreator
     {
         private String name { get; set; }
         private String customCss { get; set; }
-        private String templateLocation { get; set; }
+//        private String templateLocation { get; set; }
 
         Color frameColor { get; set; }
         Color activeTabColor { get; set; }
         Color inactiveTabsColor { get; set; }
         Color panelColor { get; set; }
 
-        public BasicStyle(String customCss, String template)
+        public BasicStyle(String customCss)
         {
             name = "Basic";
 
             this.customCss = customCss;
-            this.templateLocation = template;
+//            this.templateLocation = template;
         }
 
         public String GetName()
