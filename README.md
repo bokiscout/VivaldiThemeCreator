@@ -1,6 +1,9 @@
 # VivaldiThemeCreator
 Create custom themes for Vivaldi web browser with just a few mouse clicks.
 
+# Vivaldi Theme Creator is dead
+Since version 1.4 Vivaldi comes with highly improved theme support. It has a range of new themes and options to further customize them.
+
 ## Screenshot:
 ![Screenhot of Vivaldi Theme Creator](/Images/VivaldiThemeCreatorScreenShot.jpg)
 
